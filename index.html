@@ -12,12 +12,13 @@
   <!-- ====== Header section ========-->
   <header>
     <h1>Continents</h1>
-     <!-- Can add nav section here if you want -->
+    
     <nav>
       <ul>
-        <li>North America</li>
-        <li>South America</li>
-        <li>Asia</li>
+        <li><a href="">North America<a/></li>
+        <li><a href="">South America</a></li>
+        <li><a href="">Asia</a></li>
+        <li><a href="">Tables</a></li>
       </ul>
     </nav>
   </header>
@@ -26,10 +27,11 @@
   <br><br><br>
 
   <main>
-    <section>
+    <section id="North America">
       <h2>North America</h2>
-      <figure></figure>
-      <img src="images/north_america_continent_america.jpg" width="400px height="300px" alt="Picture of North America">
+      <figure>
+      <img src="https://lh3.googleusercontent.com/mUIr-YIVNBnByc2OyiJcEtTGlrLa4pDA6qc_HlQ_Jrv0yAJMlymJqGowFP6yOcZIgK9zGA=s85" 
+           width="100px" height="100px" alt="Picture of North America">
       <figcaption>The Continent of North America</figcaption>
       </figure>
 <br>
@@ -38,10 +40,11 @@
 
     <br><br><br>
 
-    <section>
+    <section id="South America">
       <h2>South America</h2>
       <figure>
-        <img src="images/south_america_continent_land.jpg"  width="300px height="300px" alt="Picture Of South America">
+        <img src="https://lh3.googleusercontent.com/nS4mrv3jnFtJTngXMH5qCh8NihHYyUQ4SsNSOIK9xHEUSzd_Tmx18vw_UicAT5OmSYI3hA=s85"  
+           width="100px" height="100px" alt="Picture Of South America">
         <figcaption>The Continent of South America</figcaption>
       </figure>
 <br>
@@ -51,10 +54,11 @@
 
 <br><br><br>
 
-    <section>
+    <section id="Asia">
       <h2>Asia</h2>
       <figure>
-        <img src="images/asia.jpg" width="300px height="500px" alt="Picture of Asia">
+        <img src="https://lh3.googleusercontent.com/U4Oo4OT_B_eip6A7uAZ7IgSnKHH-bpBO9CzSeD7Js2FeOigLGp2aY7ZFSAEZOkfR2sfN=s86" 
+             width="100px" height="100px" alt="Picture of Asia">
         <figcaption>The Continent of Asia</figcaption>
       </figure>
 
@@ -64,36 +68,50 @@
 
     <br><br><br><br>
 
-<!-- ======  Table 1  =============
-    <section>
+<!-- ======  Table 1  ============= -->
+   <section id="Tables">
       <p><strong>Table 1<strong></p>  
       <table border="1" cellpadding="10px">
         <thead>
           <tr>
-            <th scope="col">North America</th>
-            <th scope=" col">South America</th>
-            <th scope="col">Asia
+            <th scope="col">Continents</th>
+            <th scope="col">Avg RainFall Weekly</th>
+            <th scope="col">Avg RainFall Monthly</th>
+            <th scope="col">Total</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>10million</td>
-            <td>8million</td>
-            <td>7.5million</td>
+          <tr style="font-weight:normal" cellp>
+            <td>North America</td>
+            <td>8.5 inches</td>
+            <td>80 inches</td>
+            <td>88.5 inches</td>
           </tr>
+          <tr style="font-weight:normal">
+          <td>South America</td>
+            <td>24.5 inches</td>
+            <td>56 inches</td>
+            <td>110.5 inches</td>
+            </tr>
+            <tr style="font-weight:normal">
+            <td>Asia</td>
+            <td>30.5 inches</td>
+            <td>80 inches</td>
+            <td>88.5 inches</td>
+            </tr>
         </tbody>
       </table>
     </section>
 
-    <br><br><br><br><br> -->
+    <br><br><br><br><br> 
 
-    <!-- ======  Table 1  ============= -->
+    <!-- ======  Table 2  ============= -->
     <section>      
       <p><strong>Table 2<strong></p>    
       <table border="1" cellpadding="10px">
         <thead>
           <tr>
-            <th>Facts</th>
+            <th>Continents</th>
             <th scope="col">North America</th>
             <th scope="col">South America</th>
             <th scope="col">Asia</th>
@@ -112,12 +130,7 @@
             <td>$3.990 trillion</td>
             <td>$31.58 trillion</td>
           </tr>
-          <tr style="font-weight:normal">
-            <th>Average Rain Fall</th>
-            <td>80 inches</td>
-            <td>24 to 56 inches</td>
-            <td>80 inches</td>
-          </tr>
+       
         </tbody>
         <tfoot>
            <!-- If you were to add up columns can put total here(each with its own <td> tag) -->
